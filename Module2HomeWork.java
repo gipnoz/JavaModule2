@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.lang.Math;
+
 public class Module2HomeWork {
 
 
