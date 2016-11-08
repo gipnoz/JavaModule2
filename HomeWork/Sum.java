@@ -10,7 +10,7 @@ public class Sum {
         sumDouble(DoubleArray);
     }
 
-        public static int sum(int[] array) {
+        public static int sum(int array[]) {
             int sum = 0;
             for (int a : array) {
                 sum += a;

@@ -11,7 +11,7 @@ public class Min {
         minDouble(arrayDouble);
     }
 
-        public static int min(int[] array) {
+        public static int min(int array[]) {
             int min = Arrays.stream(array).min().getAsInt();
 
             System.out.println("Min int: " + min);

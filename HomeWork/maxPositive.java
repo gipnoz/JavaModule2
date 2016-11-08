@@ -8,7 +8,7 @@ public class maxPositive {
         maxDouble(doubleArray);
     }
 
-        public static int max(int[] array){
+        public static int max(int array[]){
         int max = 0;
         for(int number : array)
             if(number>0 && max<number)

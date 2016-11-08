@@ -8,7 +8,7 @@ public class Modulus {
         modulusD(doubleArray);
     }
 
-    public static int modulus(int[] array){
+    public static int modulus(int array[]){
         int first = array[0];
         int last = array[array.length - 1];
         int mod = first % last;

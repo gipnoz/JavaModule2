@@ -7,7 +7,7 @@ public class Multiplication {
         multiplication(array);
         multiplication(doubleArray);
     }
-    public static long multiplication(long[] array) {
+    public static long multiplication(long array[]) {
         long a = 1;
         for (long b : array)
             a *= b;
