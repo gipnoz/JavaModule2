@@ -6,6 +6,9 @@ public class Multiplication {
         double[] doubleArray = {1.1, 2.5, 5.1, 7.4, 10.3, 52.8, 9.5, 22.5, 76.1, 4.3};
         multiplication(array);
         multiplication(doubleArray);
+
+        System.out.println("multiplication(int array[" + ArraysUtils.multiplication(array) + "]), ");
+
     }
     public static long multiplication(long array[]) {
         long a = 1;

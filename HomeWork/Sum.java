@@ -8,6 +8,9 @@ public class Sum {
 
         sum(Array);
         sumDouble(DoubleArray);
+
+        System.out.println("sum(int array[" + ArraysUtils.sum(Array) + "]), ");
+
     }
 
         public static int sum(int array[]) {
@@ -18,6 +21,7 @@ public class Sum {
             System.out.println("Sum int: " + sum);
 
             return sum;
+
         }
 
         public  static double sumDouble(double[] array){
@@ -31,4 +35,6 @@ public class Sum {
 
             return sum;
     }
+
 }
+

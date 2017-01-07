@@ -8,7 +8,12 @@ public class Max {
         double[] arrayDouble = {1.1, 2.5, 5.1, 7.4, 10.3, 52.8, 9.5, 22.5, 76.1, 4.3};
         max(array);
         maxDouble(arrayDouble);
+
+        System.out.println("max(int array[" + max(array) + "]), ");
+
+
     }
+
 
     public static int max(int array[]) {
         int max = Arrays.stream(array).max().getAsInt();
@@ -23,5 +28,7 @@ public class Max {
         System.out.println("Max double: " + maxDouble);
         return maxDouble;
         }
+
+
     }
 

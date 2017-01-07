@@ -1,6 +1,5 @@
 package HomeWork;
 
-
 import java.util.Arrays;
 
 public class Min {
@@ -9,6 +8,9 @@ public class Min {
         double[] arrayDouble = {1.1, 2.5, 5.1, 7.4, 10.3, 52.8, 9.5, 22.5, 76.1, 4.3};
         min(array);
         minDouble(arrayDouble);
+
+        System.out.println("min int array[" + ArraysUtils.min(array) + "] ");
+
     }
 
         public static int min(int array[]) {
@@ -16,6 +18,7 @@ public class Min {
 
             System.out.println("Min int: " + min);
             return min;
+
         }
 
         public static double minDouble(double[] array) {

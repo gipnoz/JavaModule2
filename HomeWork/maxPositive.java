@@ -6,6 +6,9 @@ public class maxPositive {
         double [] doubleArray = {1.1, 2.5, 5.1, 7.4, 10.3, 52.8, 9.5, 22.5, -76.1, 4.3};
         max(array);
         maxDouble(doubleArray);
+
+        System.out.println("maxPositive(int array[" + ArraysUtils.maxPositive(array) + "]), ");
+
     }
 
         public static int max(int array[]){

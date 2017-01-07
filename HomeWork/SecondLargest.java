@@ -7,6 +7,8 @@ public class SecondLargest {
         double[] doubleArray = {1.1, 2.5, 5.1, 7.4, 10.3, 52.8, 9.5, 22.5, 76.1, 4.3};
         secondLargest(array);
         secondLargestD(doubleArray);
+
+        System.out.println("secondLargest(int array[" + ArraysUtils.secondLargest(array)+ "]), ");
     }
 
         public static int secondLargest(int array[]){

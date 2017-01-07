@@ -6,7 +6,10 @@ public class Modulus {
         double[] doubleArray = {1.1, 2.5, 5.1, 7.4, 10.3, 52.8, 9.5, 22.5, 76.1, 4.3};
         modulus(array);
         modulusD(doubleArray);
+
+        System.out.println("modulus(int array[" + ArraysUtils.modulus(array) + "]), ");
     }
+
 
     public static int modulus(int array[]){
         int first = array[0];
